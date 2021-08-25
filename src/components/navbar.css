@@ -1,0 +1,17 @@
+.navbar-root {
+  background-color : rgba(10, 10, 10, 0.8);
+  box-shadow: none;
+  border-bottom:2px solid white;
+
+}
+.navbar-button {
+  min-height: 50px;
+  border-radius: 0;
+}
+.nav-first {
+  border-right: 1px solid white;
+  color: white;
+}
+.nav-last {
+  color: white;
+}
