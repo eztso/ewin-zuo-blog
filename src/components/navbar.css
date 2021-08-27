@@ -8,6 +8,11 @@
   min-height: 50px;
   border-radius: 0;
 }
+.navbar-button:hover {
+  background-color: white;
+  color: rgba(10, 10, 10);
+
+}
 .nav-first {
   border-right: 1px solid white;
   color: white;
