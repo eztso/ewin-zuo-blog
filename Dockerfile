@@ -29,4 +29,7 @@ COPY . ./
 
 # start app
 
-CMD ["npm", "start"]
+RUN npm run build
+
+
+CMD ["npx", "serve","-s","build","-l","8080"]
